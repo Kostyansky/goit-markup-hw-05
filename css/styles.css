@@ -680,6 +680,16 @@ a {
     border: none;
 }
 
+.close-button-icon:hover {
+    background-color: #404bbf;
+    border: none;
+}
+
+.close-button-icon:focus {
+    background-color: #404bbf;
+    border: none;
+}
+
 .contact-text {
     text-align: center;
     font-size: 16px;
