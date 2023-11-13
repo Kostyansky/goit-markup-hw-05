@@ -680,6 +680,14 @@ a {
     border: none;
 }
 
+.close-button-icon:hover {
+    fill: #ffffff
+}
+
+.close-button-icon:focus {
+    fill: #ffffff
+}
+
 .contact-text {
     text-align: center;
     font-size: 16px;
@@ -724,6 +732,10 @@ a {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.contact-input:focus {
+    border-color: #4D5AE5;
+}
+
 .contact-icon {
     color: #2e2f42;
     position: absolute;
@@ -732,6 +744,10 @@ a {
     transform: translateY(-50%);
     transition: stroke 300ms linear;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-icon:focus {
+    fill: #4D5AE5;
 }
 
 .contact-form-field-comment {
@@ -755,6 +771,10 @@ a {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.review-text:focus {
+    border-color: #4D5AE5;
+}
+
 .contact-form-field-checkbox {
     margin-bottom: 24px;
 }
@@ -769,6 +789,9 @@ a {
 }
 
 .review-form-checkbox {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     width: 16px;
     height: 16px;
     margin-right: 8px;
@@ -776,6 +799,12 @@ a {
     border: 1px solid rgba(46, 47, 66, 0.4);
     fill: transparent;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.review-form-checkbox:checked {
+    background-color: #404bbf;
+    fill: #f4f4fd;
+    border: none;
 }
 
 .review-form-checkbox-icon {}
