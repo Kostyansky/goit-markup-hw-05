@@ -732,8 +732,11 @@ a {
 }
 
 .contact-input:focus+.contact-icon {
-    border-color: #4D5AE5;
     fill: #4D5AE5;
+}
+
+.contact-input:focus {
+    border-color: #4D5AE5;
 }
 
 .contact-icon {
